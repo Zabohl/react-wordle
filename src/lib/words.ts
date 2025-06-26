@@ -129,7 +129,7 @@ export const getWordOfDay = (index: number) => {
 export const getSolution = (gameDate: Date) => {
   const nextGameDate = getNextGameDate(gameDate)
   const index = getIndex(gameDate)
-  const wordOfTheDay = getWordOfDay(index)
+  const wordOfTheDay = "Pregnant"
   return {
     solution: wordOfTheDay,
     solutionGameDate: gameDate,
