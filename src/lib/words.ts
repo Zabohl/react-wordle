@@ -128,8 +128,8 @@ export const getWordOfDay = (index: number) => {
 
 export const getSolution = (gameDate: Date) => {
   const nextGameDate = getNextGameDate(gameDate)
-  const index = getIndex(gameDate)
-  const wordOfTheDay = "Pregnant"
+  const index = 0
+  const wordOfTheDay = getWordOfDay(index)
   return {
     solution: wordOfTheDay,
     solutionGameDate: gameDate,
